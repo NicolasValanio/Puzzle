@@ -5,12 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>PUZZLE</h1>
+    <section>
+        <table class="puz-container" id="puzzle">
+            <tr>
+                <td><img src="./imagenes/imagen-0.jpg" id="img-0" onclick="seleccionarficha(0)"></td>
+                <td><img src="./imagenes/imagen-1.jpg" id="img-1" onclick="seleccionarficha(1)"></td>
+                <td><img src="./imagenes/imagen-2.jpg" id="img-2" onclick="seleccionarficha(2)"></td>
+            </tr>
+            <tr>
+                <td><img src="./imagenes/imagen-3.jpg" id="img-3" onclick="seleccionarficha(3)"></td>
+                <td><img src="./imagenes/imagen-4.jpg" id="img-4" onclick="seleccionarficha(4)"></td>
+                <td><img src="./imagenes/imagen-5.jpg" id="img-5" onclick="seleccionarficha(5)"></td>
+            </tr>
+            <tr>
+                <td><img src="./imagenes/imagen-6.jpg" id="img-6" onclick="seleccionarficha(6)"></td>
+                <td><img src="./imagenes/imagen-7.jpg" id="img-7" onclick="seleccionarficha(7)"></td>
+                <td><img src="./imagenes/imagen-8.jpg" id="img-8" onclick="seleccionarficha(8)"></td>
+            </tr>
+        </table>
+    </section>
 
 
-
+    <div class="butons">
+        <button id="ok" type="button" onclick="finalizado()">Comprobar</button>
+        <button id="reverse" type="reset"><a href="index.html">Reiniciar</a></button>
+    </div>
 
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 10PX;
+}
+img{
+    width: 120px;
+    height: 170px;
+    border: none;
+}
+.puz-container{
+    margin: auto;
+    margin-top: 10px;
+    border: solid;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.butons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+:hover button{
+    cursor: pointer;
+}
